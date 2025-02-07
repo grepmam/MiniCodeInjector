@@ -14,8 +14,14 @@ El proceso de inyección consta de los siguientes pasos:
 
 ## Dependencias
 
-```bat
+```
 pip install psutil pywin32
+```
+
+## Ejecución
+
+```
+python mini_code_injector.py chrome.exe
 ```
 
 ## Tener en cuenta
