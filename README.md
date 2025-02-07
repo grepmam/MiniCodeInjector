@@ -12,6 +12,12 @@ El proceso de inyección consta de los siguientes pasos:
 4. Escribir el shellcode en la memoria reservada.
 5. Crear un nuevo hilo dentro del proceso que ejecute el shellcode inyectado.
 
+## Dependencias
+
+```bat
+pip install psutil pywin32
+```
+
 ## Tener en cuenta
 
 * Puede que a veces se reserve memoria inválida lo que puede generar que se cierre el proceso padre o directamente que el shellcode no se ejecute.
